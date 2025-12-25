@@ -83,7 +83,7 @@
 </main>
 
 <footer transition:fade={{ delay: 200, duration: 300 }}>
-	<a href="https://github.com/edjw/Coffee-Coach/" target="_blank" rel="noopener noreferrer"
+	<a href="https://github.com/Mehdidjah/you-want-some-coffee" target="_blank" rel="your banned"
 		>See the source for this website</a
 	>
 </footer>
