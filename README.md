@@ -1,37 +1,52 @@
-Coffee Coach
+# Coffee Coach
 
 Coffee recipe app built with SvelteKit - a modern, clean, and structured coffee brewing guide.
 
-Features
+## Features
 
-Interactive coffee calculators for multiple brewing methods
-Persistent storage of preferences (coffee/water amounts, grind sizes)
-Clean, modern UI with smooth transitions
-Responsive design
-PWA-ready (Progressive Web App)
-Getting Started
+- Interactive coffee calculators for multiple brewing methods
+- Persistent storage of preferences (coffee/water amounts, grind sizes)
+- Clean, modern UI with smooth transitions
+- Responsive design
+- PWA-ready (Progressive Web App)
 
-Prerequisites
+## Getting Started
 
-Node.js 18+ and npm
-Installation
+### Prerequisites
 
+- Node.js 18+ and npm
+
+### Installation
+
+```bash
 npm install
-Development
+```
+
+### Development
 
 Run the development server:
 
+```bash
 npm run dev
-The app will be available at http://localhost:5173
+```
 
-Building for Production
+The app will be available at `http://localhost:5173`
 
+### Building for Production
+
+```bash
 npm run build
+```
+
 Preview the production build:
 
+```bash
 npm run preview
-Project Structure
+```
 
+## Project Structure
+
+```
 src/
 ├── components/          # Reusable Svelte components
 │   ├── Button.svelte
@@ -47,22 +62,26 @@ src/
 │   └── [recipe]/        # Individual recipe pages
 │       └── +page.svelte
 └── app.html             # HTML template
-Adding a New Recipe
+```
 
-Create a new route folder in src/routes/ (e.g., my-recipe)
-Create a +page.svelte file in that folder with your recipe content
-Add recipe data to src/components/store.js following the existing pattern
-Add the recipe title and slug to src/routes/_allRecipes.js to include it on the homepage
-Technologies
+## Adding a New Recipe
 
-SvelteKit - The framework (upgraded from Sapper)
-Svelte 4 - The UI framework
-Vite - Build tool
-svelte-persistent-store - LocalStorage-backed state management
-Deployment
+1. Create a new route folder in `src/routes/` (e.g., `my-recipe`)
+2. Create a `+page.svelte` file in that folder with your recipe content
+3. Add recipe data to `src/components/store.js` following the existing pattern
+4. Add the recipe title and slug to `src/routes/_allRecipes.js` to include it on the homepage
 
-This project is configured for Netlify deployment. The build command and publish directory are set in netlify.toml.
+## Technologies
 
-License
+- **SvelteKit** - The framework (upgraded from Sapper)
+- **Svelte 4** - The UI framework
+- **Vite** - Build tool
+- **svelte-persistent-store** - LocalStorage-backed state management
 
+## Deployment
 
+This project is configured for Netlify deployment. The build command and publish directory are set in `netlify.toml`.
+
+## License
+
+MIT
