@@ -65,4 +65,4 @@ This project is configured for Netlify deployment. The build command and publish
 
 License
 
-MIT
+
