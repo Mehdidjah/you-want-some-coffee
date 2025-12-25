@@ -73,13 +73,15 @@ src/
 
 ## Technologies
 
-- **SvelteKit** - The framework (upgraded from Sapper)
+- **SvelteKit** - The framework
 - **Svelte 4** - The UI framework
 - **Vite** - Build tool
-- **svelte-persistent-store** - LocalStorage-backed state management
+- **@sveltejs/adapter-vercel** - Vercel deployment adapter
 
 ## Deployment
 
-This project is configured for Netlify deployment. The build command and publish directory are set in `netlify.toml`.
+This project is configured for Vercel deployment. The build command and settings are configured in `vercel.json` and `svelte.config.js`.
 
+## License
 
+MIT
