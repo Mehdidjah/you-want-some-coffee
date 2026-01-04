@@ -82,7 +82,3 @@ src/
 ## Deployment
 
 This project is configured for Vercel deployment. The build command and settings are configured in `vercel.json` and `svelte.config.js`.
-
-## License
-
-MIT
